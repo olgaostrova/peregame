@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>перегар</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+<style media="screen">
+  .moon1:hover ~ .circle1 {
+    opacity: 1;
+  }
+</style>
+  </head>
+  <body>
+    <!-- <div class="counter">
+
+    </div> -->
+    <div class="general_menu">
+      <div class="moon">
+        <div class="castle"></div>
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+        <div class="moon1"></div>
+        <div class="moon2"></div>
+        <div class="moon3"></div>
+        <div class="moon4"></div>
+        <div class="moon5"></div></div>
+      <div class="game_1">
+        <div class="game_1_intro"></div>
+        <div class="game_1_first_screen">
+          <div class="home_1"></div>
+          <div class="beer_mug"></div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+    <!-- <img class="this" src="images/this_is_peregar.png" alt=""> -->
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $(".moon1").click(function() {
+      $( ".game_1" ).css( "display", 'block' );
+      $( ".game_1_intro" ).css( "display", 'block' );
+    })
+    $(".game_1_intro").click(function() {
+      $( ".game_1_first_screen" ).css( "display", 'block' );
+    })
+    $(".home_1").click(function() {
+      $( ".game_1" ).css( "display", 'none' );
+      $( ".game_1_first_screen" ).css( "display", 'none' );
+    })
+    // $( function() {
+    //   $( ".beer_mug" ).draggable();
+    //   $( "#droppable" ).droppable({
+    //     drop: function( event, ui ) {
+    //       $( this )
+    //         .addClass( "ui-state-highlight" )
+    //         .find( "p" )
+    //           .html( "Dropped!" );
+
+
+
+    // $(".moon1").hover(function() {
+    //   $( ".circle1" ).addClass( "opacity", "1");
+    // })
+    // $(".moon1").click(function() {
+    //   $( ".circle1" ).css( "display", "block");
+    // })
+    // $(".moon3").hover(function() {
+    //   $( ".circle3" ).addClass( "opacity", "1");
+    // })
+    // $(".moon4").hover(function() {
+    //   $( ".circle4" ).addClass( "opacity", "1");
+    // })
+    // $(".moon5").hover(function() {
+    //   $( ".circle5" ).addClass( "opacity", "1");
+    // })
+    //
+    // $("moon2").hover(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon3").hover(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon4").hover(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon5").hover(function() {
+    //   $( "moon2" ).addClass( "opacity",'1' );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon1").onclick(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon2").onclick(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon3").onclick(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $("moon4").onclick(function() {
+    //   $( "moon2" ).addClass( "opacity" );
+    //   // var color = $('moon2'.css ('opacity'))
+    // })
+    // $(".moon2").click(function() {
+    //   $( ".game_1" ).css( "opacity", '1' );
+      // var color = $('moon2'.css ('opacity'))
+    // let counter = 0;
+    //
+    // $(".moon1").click(function () {
+    //   if (counter == 5) {
+    //     counter = 0;
+    //   } else {
+    //     counter+=1;
+    //   }
+    //   if (counter == 2) {
+    //     $('.counter').css('background','red');
+    //   }
+    //   if (counter == 3) {
+    //     $('.counter').css('background','blue');
+    //   }
+    //   $('.counter').html(counter);
+    // })
+
+
+  </script>
+  </body>
+</html>
