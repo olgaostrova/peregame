@@ -1,0 +1,215 @@
+
+body {
+  background: white;
+}
+/* ховеры голубых лун */
+.moon1:hover ~ .circle1 {
+  opacity: 1;
+}
+.moon2:hover ~ .circle2 {
+  opacity: 1;
+}
+.moon3:hover ~ .circle3 {
+  opacity: 1;
+}
+.moon4:hover ~ .circle4 {
+  opacity: 1;
+}
+.moon5:hover ~ .circle1 {
+  opacity: 1;
+}
+.general_menu {
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: relative;
+  overflow: hidden;
+  /* background-color: red; */
+}
+.castle {
+  z-index: 1;
+  /* display: block; */
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url('../images/general_menu.png');
+
+}
+.moon {
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.moon1 {
+  z-index: 2;
+  opacity: 20%;
+  background: green;
+  height: 13vh;
+  width: 20vh;
+  position: absolute;
+  top: 52vh;
+  left: 31vh;
+  margin: 0 auto;
+  transform: rotate(61deg);
+}
+.moon2 {
+  z-index: 2;
+  opacity: 20%;
+  background: red;
+  height: 8vh;
+  width: 26vh;
+  position: absolute;
+  top: 37vh;
+  left: 27vh;
+  margin: 0 auto;
+  transform: rotate(70deg);
+}
+.moon3 {
+ z-index: 2;
+  opacity: 20%;
+  background: orange;
+  height: 37vh;
+  width: 24vh;
+  position: absolute;
+  top: 27vh;
+  left: 50vh;
+  margin: 0 auto;
+}
+.moon4 {
+  z-index: 2;
+  opacity: 20%;
+  background: pink;
+  height: 27vh;
+  width: 13vh;
+  position: absolute;
+  top: 45vh;
+  left: 68vh;
+  margin: 0 auto;
+}
+.moon5 {
+  z-index: 2;
+  opacity: 20%;
+  background: yellow;
+  height: 28vh;
+  width: 10vh;
+  position: absolute;
+  top: 18vh;
+  left: 81vh;
+  margin: 0 auto;
+  transform: rotate(32deg);
+}
+
+.circle1 {
+  opacity: 0;
+  top: 40vh;
+  left: 22vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.circle2 {
+  opacity: 0;
+  position: absolute;
+  top: 16vh;
+  left: 24vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.circle3 {
+  opacity: 0;
+  position: absolute;
+  top: 4vh;
+  left: 47vh;
+  height: 30vh;
+  width: 30vh;
+  transform: rotate(219deg);
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.circle4 {
+  opacity: 0;
+  position: absolute;
+  top: 15vh;
+  left: 74vh;
+  height: 30vh;
+  width: 30vh;
+  transform: rotate(151deg);
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.circle5 {
+  opacity: 0;
+  position: absolute;
+  top: 39vh;
+  left: 64vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+
+.game_1 {
+  display: none;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.game_1_intro {
+  z-index: 1;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_1_intro.jpg');
+}
+.game_1_first_screen {
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_1.jpg');
+}
+.home_1 {
+  /* z-index: 3; */
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+  top: 88vh;
+  left: 118vh;
+}
+.beer_mug {
+  /* z-index: 3; */
+  position: absolute;
+  height: 30vh;
+  width: 29vh;
+  top: 9vh;
+  left: 91vh;
+  rotate: 342deg;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/beer_mug.png');
+
+}
